@@ -39,7 +39,7 @@ public class CustomDialog extends DialogFragment{
             }
         });
 
-        builder.setNegativeButton("Caancel", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 dialogInterface.cancel();
